@@ -1,0 +1,262 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+    font-size: 32px;
+    color: red;
+}
+========================================== */
+
+.icon-search {
+    font-size: 20px;
+    color: black;
+}
+
+.filter-image img {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+}
+
+.filter-wrapper {
+    position: relative;
+    height: 600px;
+}
+
+.filter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6)
+    /* z-index: 1; */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+}
+
+@media (max-width: 768px) {
+    .filter-image img {
+        height: 450px;
+    }
+    .filter-wrapper {
+        height: 450px;
+    }
+    .carousel-item img {
+        height: 450px;
+    }
+}
+
+@media (max-width: 425px) {
+    .filter-image img {
+        height: 300px;
+    }
+    .filter-wrapper {
+        height: 300px;
+    }
+    .carousel-item img {
+        height: 300px;
+    }
+}
+  
+.top-header {
+    padding-top: 20px;
+    background-color: hsl(0, 59%, 48%);
+}
+
+.social a{
+    color: white;
+}
+
+.main-header {
+    background-color: rgb(168, 19, 19);
+}
+
+.main-header h1 {
+    color: white;
+}
+
+.navbar a{
+    color: rgb(255, 255, 211);
+}
+
+.navbar a:hover {
+    color: black;
+    background-color: rgb(255, 255, 211);
+}
+
+.bottom-header {
+    padding-top: 20px;
+    background-color: rgb(255, 255, 211);
+}
+
+.bottom-header p {
+    color: rgba(139, 93, 93, 0.596);
+}
+
+.search {
+    background-color: rgb(255, 255, 211);
+}
+
+.input-group-text {
+    background-color: rgb(255, 255, 211);
+}
+
+.icon-search {
+    color: rgba(139, 93, 93, 0.596);
+}
+
+main {
+    padding-bottom: 20px;
+    background-color: rgb(250, 236, 199);
+}
+
+.restaurantPics {
+    padding-top: 20px;
+}
+
+figcaption {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    line-height: 15px;
+    background-color: white;
+}
+
+figcaption h2 {
+    font-size: 20px;
+    color: rgba(197, 22, 22, 0.658);
+}
+
+figcaption p {
+    font-size:15px;
+}
+
+.reservation {
+    color: rgba(139, 93, 93, 0.596);
+}
+
+.offers span {
+    padding-left: 10px;
+    color: rgb(91, 148, 54);
+}
+
+.offers .cap {
+    color: rgb(91, 148, 54);
+}
+
+.offers svg {
+    color: rgb(91, 148, 54);
+}
+
+.offers .offer {
+    font-size: 10px;
+}
+
+.offers p {
+    padding-left: 10px;
+    color: grey;
+}
+
+.offers a {
+    color: rgba(197, 22, 22, 0.658);
+}
+
+.top-footer {
+    background-color: rgb(109, 108, 108);
+}
+
+.client-logo1 {
+    padding: 10px 0 10px 10px;
+    font-family: 'Roboto', sans-serif;
+    color: lightgray;
+}
+
+.client-logo2 {
+    font-family: 'Dancing Script', cursive;
+    color: lightgray;
+}
+
+.client-logo3 {
+    font-family: 'Andada Pro', serif;
+    color: lightgray;
+}
+
+.client-logo4 {
+    font-family: 'Ephesis', cursive;
+    color: lightgray;
+}
+
+.client-logo5 {
+    font-family: 'Italianno', cursive;
+    color: lightgray;
+}
+
+.footer .logo {
+    padding: 15px 0 15px 20px;
+}
+
+.main-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(78, 76, 76);
+}
+
+.main-footer h2 {
+    font-size: 18px;
+    color: white;
+}
+
+.main-footer h3 {
+    font-size: 16px;
+    color: white;
+}
+
+.main-footer p {
+    color: lightgray;
+}
+
+.main-footer a {
+    color: white
+}
+
+.main-footer ul li {
+    list-style-type: none;
+    color: lightgray;
+}
+
+.contacts {
+    padding-right: -50px;
+}
+
+.main-footer span {
+    color: white;
+}
+
+.flickr {
+    padding-right: none;
+}
+
+.bottom-footer {
+    background-color: rgb(51, 49, 49);
+    padding-top: 20px;
+}
+
+.bottom-footer h2 {
+    color: white;
+}
+
+.copyright {
+    color: lightgray;
+}
